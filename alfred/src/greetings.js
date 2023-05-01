@@ -1,7 +1,7 @@
 module.exports = client => {
     // This is the channel ids in my channel. 
     // TODO: you will have to change to your own ids.
-    const generalChat = '517305403176910860';
+    const generalChat = '1102583108777295902';
     const portal = '939871697996222485';
     
     // when new member is added.
@@ -26,11 +26,11 @@ module.exports = client => {
     client.on("guildMemberRemove", (member) => {
         const msg = `I hope my services were to your satisfaction, <@${member.id}>. Farewell for now.`;
         
+        /** Get the target channel to prompt the welcome message. */
+        const channel = member.guild.channels.cache.get(generalChat);
+        
         /* This is to crash-proof: condition: only channel is valid*/
         if ( channel) {
-            /** Get the target channel to prompt the welcome message. */
-            const channel = member.guild.channels.cache.get(generalChat);
-    
             /** Sends the message in the designated channel */
             channel.send(msg);
         }
