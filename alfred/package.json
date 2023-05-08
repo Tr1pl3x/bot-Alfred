@@ -1,14 +1,18 @@
 {
   "name": "bot-alfred",
   "version": "1.0.0",
-  "description": "",
+  "description": "Alfred is very much like from Batman. At you service, master Wayne",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devAlfred": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }

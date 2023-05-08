@@ -1,5 +1,5 @@
+const PREFIX = '!';     // change this to your desired command prefix
 module.exports = client => {
-    const PREFIX = '!'; // change this to your desired command prefix
     
     // cleans the chat but pinned messages.
     client.on('message', message => {
