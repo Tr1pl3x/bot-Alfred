@@ -1,3 +1,4 @@
+const askMe = require('./funExt/8ball');
 const coinFlip = require('./funExt/coinFlip');
 const generateRandom = require('./funExt/generate');
 const rpsFunc = require('./funExt/rps');
@@ -15,6 +16,7 @@ module.exports = client => {
         // the args array will be ['greet', 'Alice', 'Bob'].
         const words =  message.content.slice(PREFIX.length).trim().split(/ +/);
 
+        // Switch Case
         // Check if the message is a command to access fun extensions that are available
         let result;
         switch(words[0]) {
@@ -27,8 +29,12 @@ module.exports = client => {
                 message.channel.send(result);
                 break;
             case('generate'):
-                result = generateRandom(words);
+                result = generateRandom(words, message.author.id);
                 message.reply(result);
+                break;
+            case('ask'):
+                result = askMe(words, message.author.id);
+                message.channel.send(result);
                 break;
         }     
     });
