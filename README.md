@@ -1,5 +1,7 @@
 # DISCORD-BOT-ALFRED
-Alfred is very much like from Batman. He welcomes the incoming users with a meaningful message ~ First time coding a discord bot. Pretty exciting!
+~ An experimental and work-in-progress Discord bot ~ <br>
+Alfred is very much like from Batman. He welcomes the incoming users with a meaningful message. <br>
+This is my first time coding a discord bot and first time creating my personal github project.
 
 ## Current features:
 #### Chat
