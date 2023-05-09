@@ -24,6 +24,7 @@
 ## 10th May 2023:
 
 * Updated route that index.js calls around chat functions. Functions that are related are now under 'chatExt' ( stands for chat Extensions).
+* Create a new file 'prompts.js' under './src/misc/' where all the prompts are declared to avoid code repitation.
     
 
 
