@@ -13,6 +13,7 @@
 
 ## 9th May 2023:
 
+[Entry 1]
     * You can now ask Alfred to generate a random number between two given numbers. 
             [ command: ' !generate <min> <max>]
     * The way that index.js calls around the functions of the bot has been changed. Till this commit, the bot can do functions such as rps, flip and generateRandom.
@@ -21,6 +22,11 @@
     * You can now ask Alfred a question and Alfred will answer like the Magic 8 Ball, 
         which is a toy used for fortune-telling or seeking advice.
             [ command: ' !ask <any question> ']
+
+[Entry 2]
+    * Created new folder 'misc'.
+    * Updated command line visual with timestamped activity so developer can track.
+    
 
 
     
