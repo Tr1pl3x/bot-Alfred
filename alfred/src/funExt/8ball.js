@@ -1,3 +1,4 @@
+const askMeInvalid = require("../misc/prompts");
 const printTime = require("../misc/time");
 
 const reply = [
@@ -23,7 +24,6 @@ const reply = [
   'My reply is no'
 ]; // standard 8ball responses
 
-const invalidPrompt1 = `, sir, you must put a question [ **!ask <any question>** ]`;
 
 function askMe(cmd, id) {
   console.log(`[${printTime()}] funExt.8ball`);
@@ -32,7 +32,7 @@ function askMe(cmd, id) {
   const defaultReply = `<@${id}>`;
 
   // invalid command
-  if (cmd.length == 1) return defaultReply+invalidPrompt1;
+  if (cmd.length == 1) return defaultReply+askMeInvalid;
   
   // extract question from the incoming command and 
   // randomise an answer from standard 8ball responses.
