@@ -1,4 +1,6 @@
+const printTime = require("./misc/time");
 const PREFIX = '!';     // change this to your desired command prefix
+
 module.exports = client => {
     
     // cleans the chat but pinned messages.
@@ -15,8 +17,9 @@ module.exports = client => {
         const args = message.content.slice(PREFIX.length).trim().split(/ +/);
         const command = args.shift().toLowerCase();
         
-        if (command === 'clean') {        
-            console.log(`Target channel: '${message.channel.name}'`);
+        if (command === 'clean') {
+            console.log(`[${printTime()}] chat.clean`);
+            console.log(`# Target channel: '${message.channel.name}'`);
             // Get the messages in the channel where command was invoked
             message.channel.messages.fetch()
                 .then(messages => {

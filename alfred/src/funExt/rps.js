@@ -1,3 +1,5 @@
+const printTime = require("../misc/time");
+
 /* Rock, Paper, Scissors*/
 const choices = ['rock', 'paper', 'scissors'];
 const invalidPrompt1 = `Sir, please don't be STUPID. You have to **CHOOSE**.
@@ -7,6 +9,7 @@ const invalidPrompt2 = `SIR, don't fool around. ** TAKE THIS SERIOUSLY **
 
 
 function rpsFunc( cmd ) {
+    console.log(`[${printTime()}] funExt.rps`);
 
     // If the user didn't provide a choice, 
     // prompt them for one

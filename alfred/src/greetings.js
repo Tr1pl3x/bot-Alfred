@@ -1,13 +1,16 @@
+const printTime = require("./misc/time");
+
 module.exports = client => {
-    // This is the channel ids in my channel. 
-    // TODO: you will have to change to your own ids.
+    /* you will have to change this id. */
     const generalChat = '1102583108777295902';
     const portal = '939871697996222485';
     
     // when new member is added.
     client.on("guildMemberAdd", (member) => {
+        console.log(`[${printTime()}] greetings.welcome`);
+        
         const msg = `Welcome back, <@${member.id}>.`;
-
+        
         /** Get the target channel to prompt the welcome message. */
         const channel = member.guild.channels.cache.get(generalChat);
         
@@ -24,6 +27,7 @@ module.exports = client => {
     
     // when a member leaves or is removed
     client.on("guildMemberRemove", (member) => {
+        console.log(`[${printTime()}] greetings.farewell`);
         const msg = `I hope my services were to your satisfaction, <@${member.id}>. Farewell for now.`;
         
         /** Get the target channel to prompt the welcome message. */

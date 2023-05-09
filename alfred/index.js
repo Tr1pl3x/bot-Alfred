@@ -10,7 +10,7 @@ client.on("ready", () => {
 
   /** This is to prompt when the bot is launched successfully */
   console.log("Alfred is listening...");
-  // ALFRED's functions
+  // ALFRED's listening routes
   welcome(client);
   fun(client);
   chat(client);
