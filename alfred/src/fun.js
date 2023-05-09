@@ -17,7 +17,7 @@ module.exports = client => {
         const words =  message.content.slice(PREFIX.length).trim().split(/ +/);
 
         // Switch Case
-        // Check if the message is a command to access fun extensions that are available
+        // Check if incoming command is valid for available fun extensions 
         let result;
         switch(words[0]) {
             case('rps'): 
