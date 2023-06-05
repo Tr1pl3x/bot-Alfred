@@ -4,10 +4,10 @@ Alfred is very much like from Batman. He welcomes the incoming users with a mean
 This is my first time coding a discord bot and first time creating my personal github project.
 
 ## Current features:
-#### Chat
+#### **Chat**
 * Sends a welcome message or farewell message whenever a user joins or leaves the server.
 * Cleans the chat and preserved pinned messages.
-#### Fun
+#### **Fun**
 * Plays rocks, papers and scissors.
 * Do a coin flip.
 * Generate a random number between given range.
