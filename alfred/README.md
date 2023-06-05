@@ -25,7 +25,7 @@
 
 * Updated route that index.js calls around chat functions. Functions that are related are now under 'chatExt' ( stands for chat Extensions).
 
-# 5th June 2023:
+## 5th June 2023:
 
 * added lint to use standardised style for the repo.
 * updated the !help prompt to simpler message.
