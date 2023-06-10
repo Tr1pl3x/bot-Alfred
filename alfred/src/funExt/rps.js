@@ -1,6 +1,6 @@
 // Imports
 const { rpsInvalid1, rpsInvalid2, rpsWin, rpsLose, rpsTie } = require('../misc/prompts')
-const printTime = require('../misc/time')
+const {printTime} = require('../misc/time')
 const choices = ['rock', 'paper', 'scissors']
 
 function rpsFunc (cmd) {

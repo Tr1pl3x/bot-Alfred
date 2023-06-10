@@ -1,4 +1,4 @@
-const printTime = require('./misc/time')
+const {printTime} = require('./misc/time')
 
 module.exports = client => {
   /* you will have to change this id. */

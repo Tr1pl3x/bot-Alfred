@@ -1,5 +1,5 @@
 const { genInvalid1, genInvalid2 } = require('../misc/prompts')
-const printTime = require('../misc/time')
+const {printTime} = require('../misc/time')
 
 function generateRandom (cmd) {
   console.log(`[${printTime()}] funExt.generate`)

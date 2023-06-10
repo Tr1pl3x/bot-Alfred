@@ -1,4 +1,4 @@
-const printTime = require('../misc/time')
+const {printTime} = require('../misc/time')
 
 /* Coin Flip */
 const coin = ['Heads', 'Tails'] // A coin have heads and tails

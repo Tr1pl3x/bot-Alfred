@@ -1,5 +1,5 @@
-const askMeInvalid = require('../misc/prompts')
-const printTime = require('../misc/time')
+const askMeInvalid = require('../misc/prompts');
+const {printTime} = require('../misc/time');
 
 const reply = [
   'It is certain',
