@@ -17,7 +17,7 @@ This is my first time coding a discord bot and first time creating my personal g
 * User can input a name of the city and Alfred will fetch weather details of the city from an weather api.
 * User can quick search for top-rated restaurants with the specified cuisine and location.
 
-### Setting up Alfred
+## Setting up Alfred
 
 Before you do the step, you will to enable yourself as developer in discord settings and register to get your developer token for the bot on the discord website. There are a lot of tutorials on how to setup but the one I watched is [here](https://www.youtube.com/watch?v=tDh45V2S6jg).
 
