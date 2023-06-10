@@ -32,3 +32,7 @@
 * weather function will be added as a TODO for later use of the repo.
 * finalised READMe.md for making the repo public.
 
+# 10th June 2023:
+
+* found a syntax error that bugs the command line and functionality when the bot is called. [FIXED]
+* Discord imposes that developer bots cannot bulk delete messages that are 14 days or older.

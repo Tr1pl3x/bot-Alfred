@@ -6,8 +6,8 @@ This is my first time coding a discord bot and first time creating my personal g
 ## Current features:
 #### **Chat**
 * Sends a welcome message or farewell message whenever a user joins or leaves the server.
-* Cleans the chat and preserved pinned messages.
-#### **Fun**
+* Cleans the chat and preserved pinned messages. [ bulk-delte does not imply for messages that are more than 14 days old.]
+#### Fun
 * Plays rocks, papers and scissors.
 * Do a coin flip.
 * Generate a random number between given range.

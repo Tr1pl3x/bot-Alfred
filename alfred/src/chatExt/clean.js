@@ -1,4 +1,4 @@
-const printTime = require('../misc/time')
+const {printTime} = require('../misc/time');
 
 function cleanMsgs (message) {
   console.log(`[${printTime()}] chat.clean`)
